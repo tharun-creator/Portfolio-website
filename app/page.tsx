@@ -8,6 +8,7 @@ import { tharunRealContributions } from "@/lib/tharun-contributions-data";
 import Skiper39 from "@/components/ui/skiper39";
 import { OrangeSectionDivider, SideOrangeLines } from "@/components/ui/orange-accent-lines";
 import { FullscreenMenu } from "@/components/ui/fullscreen-menu";
+import { CalBookingSection } from "@/components/ui/cal-booking";
 import {
   ArrowRight,
   ArrowUpRight,
@@ -730,6 +731,9 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      {/* CAL.COM SCHEDULING SECTION */}
+      <CalBookingSection />
 
       {/* INTEGRATED COMPONENT 2: SKIPER39 CROWD CANVAS FOOTER */}
       <section className="relative h-[450px] w-full overflow-hidden border-t border-zinc-800">
