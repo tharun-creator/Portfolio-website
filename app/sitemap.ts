@@ -1,25 +1,24 @@
 import { MetadataRoute } from 'next';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://tharunkumar.in';
-  const currentDate = new Date().toISOString();
+  const lastmod = new Date('2026-10-09T16:23:13.060Z');
 
   return [
     {
-      url: `${baseUrl}/`,
-      lastModified: currentDate,
+      url: 'https://tharunkumar.website/',
+      lastModified: lastmod,
       changeFrequency: 'weekly',
       priority: 1.0,
     },
     {
-      url: `${baseUrl}/about`,
-      lastModified: currentDate,
+      url: 'https://tharunkumar.website/about',
+      lastModified: lastmod,
       changeFrequency: 'monthly',
       priority: 0.9,
     },
     {
-      url: `${baseUrl}/contact`,
-      lastModified: currentDate,
+      url: 'https://tharunkumar.website/contact',
+      lastModified: lastmod,
       changeFrequency: 'monthly',
       priority: 0.8,
     },
