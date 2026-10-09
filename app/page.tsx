@@ -8,6 +8,7 @@ import { tharunRealContributions } from "@/lib/tharun-contributions-data";
 import Skiper39 from "@/components/ui/skiper39";
 import { OrangeSectionDivider, SideOrangeLines } from "@/components/ui/orange-accent-lines";
 import { FullscreenMenu } from "@/components/ui/fullscreen-menu";
+import { CinematicFooter } from "@/components/ui/motion-footer";
 import {
   ArrowRight,
   ArrowUpRight,
@@ -779,21 +780,8 @@ export default function Home() {
         </div>
       </section>
 
-      {/* FOOTER */}
-      <footer className="relative z-10 border-t border-zinc-900 bg-black py-8 px-4 text-center text-xs text-zinc-600 font-mono">
-        <div className="mx-auto max-w-6xl flex flex-col sm:flex-row items-center justify-between gap-4">
-          <div>© {new Date().getFullYear()} THARUN KUMAR H. ALL RIGHTS RESERVED.</div>
-          <div className="flex items-center gap-4">
-            <a href="https://github.com/tharun-creator" target="_blank" rel="noreferrer" className="hover:text-orange-400">
-              GITHUB
-            </a>
-            <span>•</span>
-            <a href="https://linkedin.com/in/htharun-kumar" target="_blank" rel="noreferrer" className="hover:text-orange-400">
-              LINKEDIN
-            </a>
-          </div>
-        </div>
-      </footer>
+      {/* CINEMATIC CURTAIN REVEAL FOOTER */}
+      <CinematicFooter />
     </div>
   );
 }
