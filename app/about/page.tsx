@@ -26,7 +26,7 @@ import AboutClientView from "./about-client-view";
 export const metadata: Metadata = {
   title: "About Tharun Kumar H | Full Stack AI Developer & FAQ",
   description:
-    "Learn about Tharun Kumar H (Tharun) — Full Stack AI Developer at The Bot Company & SPI EDGE. Read career background, skills, and FAQs.",
+    "Explore the career background, technical skills, and FAQs of Tharun Kumar H (Tharun) — Full Stack AI Developer specializing in Next.js, Python, FastAPI, and LLM workflows.",
   keywords: [
     "About Tharun Kumar H",
     "Tharun",
@@ -44,7 +44,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "About Tharun Kumar H | Full Stack AI Developer & FAQ",
     description:
-      "Career background, engineering philosophy, technical skills, and FAQs for Tharun Kumar H (Tharun).",
+      "Explore the career background, technical skills, and FAQs of Tharun Kumar H (Tharun) — Full Stack AI Developer specializing in Next.js, Python, FastAPI, and LLM workflows.",
     url: "https://tharunkumar.in/about",
     siteName: "Tharun Kumar H Portfolio",
     images: [

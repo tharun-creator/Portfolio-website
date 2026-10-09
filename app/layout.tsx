@@ -3,8 +3,8 @@ import './globals.css';
 
 export const metadata: Metadata = {
   title: 'Tharun Kumar H | Full Stack AI Developer Portfolio',
-  description: 'Full Stack AI Developer building end-to-end web applications, Generative AI models, and scalable cloud solutions.',
-  keywords: ['Tharun Kumar H', 'Full Stack AI Developer', 'React', 'Next.js', 'Generative AI', 'TypeScript', 'Tailwind CSS', 'Chennai Developer'],
+  description: 'Tharun Kumar H is a Full Stack AI Developer specializing in Next.js, Python, FastAPI, and LLM workflows. Explore projects, experience, and book a 15-minute call.',
+  keywords: ['Tharun', 'Tharunkumar', 'Tharun Kumar H', 'Full Stack AI Developer', 'React', 'Next.js', 'FastAPI', 'Python', 'Generative AI', 'TypeScript', 'Tailwind CSS', 'Chennai Developer'],
   authors: [{ name: 'Tharun Kumar H' }],
 };
 
