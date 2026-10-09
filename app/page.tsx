@@ -167,6 +167,18 @@ export default function Home() {
       {/* ========================================== */}
       <section className="relative min-h-[85vh] w-full flex flex-col justify-between bg-[#08080a] text-white px-4 sm:px-8 pt-6 pb-2 overflow-hidden">
         
+        {/* HERO BACKGROUND SKY IMAGE */}
+        <div className="absolute inset-0 z-0 pointer-events-none select-none overflow-hidden opacity-25 mix-blend-screen">
+          <Image
+            src="/hero-sky.jpg"
+            alt="Hero Sky Texture"
+            fill
+            priority
+            className="object-cover object-center filter brightness-110 contrast-125"
+          />
+          <div className="absolute inset-0 bg-gradient-to-b from-[#08080a]/80 via-transparent to-[#08080a]" />
+        </div>
+
         {/* TOP MINIMAL NAVIGATION */}
         <header className="relative z-30 flex items-center justify-between mx-auto w-full max-w-7xl">
           <div className="flex items-center gap-3">
