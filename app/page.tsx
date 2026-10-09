@@ -205,47 +205,28 @@ export default function Home() {
         {/* Fullscreen Navigation Modal (Matching Reference Image) */}
         <FullscreenMenu isOpen={mobileMenuOpen} onClose={() => setMobileMenuOpen(false)} />
 
-        {/* CENTERED DEVELOPER PORTRAIT (MATCHING IMAGE 2 CENTER IMAGE) */}
-        <div className="absolute inset-0 z-0 flex items-end justify-center pointer-events-none overflow-hidden">
-          <div className="relative w-full max-w-2xl h-[75vh] sm:h-[82vh]">
-            <Image
-              src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=1200&q=80"
-              alt="Tharun Kumar H - Full Stack AI Developer"
-              fill
-              priority
-              className="object-cover object-top filter brightness-[0.72] contrast-[1.15] grayscale transition-all duration-700"
-              style={{
-                maskImage: 'linear-gradient(to bottom, rgba(0,0,0,1) 60%, rgba(0,0,0,0) 100%)',
-                WebkitMaskImage: 'linear-gradient(to bottom, rgba(0,0,0,1) 60%, rgba(0,0,0,0) 100%)',
-              }}
-            />
-            {/* Subtle background glow behind portrait */}
-            <div className="absolute top-1/4 left-1/2 -translate-x-1/2 -translate-y-1/2 h-96 w-96 rounded-full bg-orange-500/15 blur-[120px] pointer-events-none" />
-          </div>
-        </div>
-
         {/* HERO CONTENT OVERLAYS (LEFT AND RIGHT) */}
-        <div className="relative z-20 mx-auto w-full max-w-7xl my-auto grid grid-cols-1 lg:grid-cols-12 gap-8 items-center pt-8 pb-12">
+        <div className="relative z-20 mx-auto w-full max-w-7xl my-auto grid grid-cols-1 lg:grid-cols-12 gap-8 items-center pt-12 pb-16">
           
-          {/* LEFT OVERLAY: STATUS PILL + BIG SUBTITLE (IMAGE 2 LEFT SIDE) */}
+          {/* LEFT OVERLAY: STATUS PILL + BIG SUBTITLE */}
           <div className="lg:col-span-6 space-y-4 text-left">
             <div className="inline-flex items-center gap-2 rounded-full bg-zinc-900/90 border border-zinc-800 px-3.5 py-1.5 text-xs text-zinc-300 font-medium backdrop-blur-md">
               <span className="h-2 w-2 rounded-full bg-orange-500 animate-pulse" />
               <span>Available for Work</span>
             </div>
 
-            <h1 className="text-3xl sm:text-5xl lg:text-6xl font-bold tracking-tight text-white font-display leading-[1.08] max-w-md">
-              Full Stack AI Developer based in Chennai
+            <h1 className="text-4xl sm:text-6xl lg:text-7xl font-extrabold tracking-tight text-white font-display leading-[1.05] max-w-lg">
+              Full Stack AI Developer
             </h1>
           </div>
 
-          {/* RIGHT OVERLAY: BIO PARAGRAPH + ORANGE CTA BUTTON (IMAGE 2 RIGHT SIDE) */}
+          {/* RIGHT OVERLAY: BIO PARAGRAPH + ORANGE CTA BUTTON */}
           <div className="lg:col-span-6 flex flex-col items-start lg:items-end text-left lg:text-right space-y-6">
             <p className="text-sm sm:text-base text-zinc-300 font-light max-w-md leading-relaxed backdrop-blur-sm bg-black/20 p-2 rounded-xl">
               Hi, I'm <strong className="text-white font-semibold">Tharun Kumar H</strong> — a Full Stack AI Developer passionate about building intelligent web applications, LLM workflows, and seamless digital experiences that scale.
             </p>
 
-            {/* ORANGE CTA BUTTON WITH WHITE CIRCULAR ARROW ICON (EXACT IMAGE 2 CTA) */}
+            {/* ORANGE CTA BUTTON WITH WHITE CIRCULAR ARROW ICON */}
             <a
               href="#projects"
               className="group inline-flex items-center gap-3 rounded-full bg-orange-500 hover:bg-orange-400 p-2 pr-7 text-xs font-bold text-black uppercase tracking-wider transition-all duration-300 shadow-xl shadow-orange-500/25 active:scale-95"
@@ -259,10 +240,10 @@ export default function Home() {
 
         </div>
 
-        {/* HUGE BOTTOM BACKDROP TYPOGRAPHY: "THARUN" (EXACT MATCH FOR "DOMINIC" IN IMAGE 2) */}
+        {/* HUGE BOTTOM BACKDROP TYPOGRAPHY: "THARUNKUMAR.H" */}
         <div className="relative z-10 w-full text-center pointer-events-none select-none overflow-hidden -mb-2 sm:-mb-6">
-          <h1 className="text-[17vw] font-black tracking-tight leading-none text-white uppercase opacity-95 font-display drop-shadow-2xl">
-            THARUN
+          <h1 className="text-[9.5vw] sm:text-[11vw] font-black tracking-tighter leading-none text-white uppercase opacity-95 font-display drop-shadow-2xl whitespace-nowrap">
+            THARUNKUMAR.H
           </h1>
         </div>
 
@@ -359,7 +340,7 @@ export default function Home() {
                   <span>tharun-creator / sisu-booking-system</span>
                 </div>
                 <span className="rounded-full bg-orange-500/10 border border-orange-500/30 px-2.5 py-0.5 text-[10px] font-semibold text-orange-400">
-                  Working Repo #1
+                  Working Repo
                 </span>
               </div>
               <p className="text-xs text-zinc-300 leading-relaxed">
