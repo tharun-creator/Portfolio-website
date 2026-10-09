@@ -416,16 +416,8 @@ export function CinematicFooter() {
           <div className="relative z-20 w-full pb-8 px-6 md:px-12 flex flex-col md:flex-row items-center justify-between gap-6">
             
             {/* Copyright */}
-            <div className="text-zinc-400 text-[10px] md:text-xs font-semibold tracking-widest uppercase font-mono order-2 md:order-1">
+            <div className="text-zinc-400 text-[10px] md:text-xs font-semibold tracking-widest uppercase font-mono">
               © {new Date().getFullYear()} THARUN KUMAR H. ALL RIGHTS RESERVED.
-            </div>
-
-            {/* "Crafted with Love" Badge */}
-            <div className="footer-glass-pill px-6 py-3 rounded-full flex items-center gap-2 order-1 md:order-2 cursor-default border-zinc-800">
-              <span className="text-zinc-400 text-[10px] md:text-xs font-bold uppercase tracking-widest">Crafted with</span>
-              <span className="animate-footer-heartbeat text-sm md:text-base text-orange-500">❤</span>
-              <span className="text-zinc-400 text-[10px] md:text-xs font-bold uppercase tracking-widest">by</span>
-              <span className="text-white font-black text-xs md:text-sm tracking-normal ml-1">Tharun Kumar H</span>
             </div>
 
             {/* Back to top */}
