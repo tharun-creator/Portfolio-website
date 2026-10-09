@@ -8,7 +8,6 @@ import { tharunRealContributions } from "@/lib/tharun-contributions-data";
 import Skiper39 from "@/components/ui/skiper39";
 import { OrangeSectionDivider, SideOrangeLines } from "@/components/ui/orange-accent-lines";
 import { FullscreenMenu } from "@/components/ui/fullscreen-menu";
-import { CalBookingSection } from "@/components/ui/cal-booking";
 import {
   ArrowRight,
   ArrowUpRight,
@@ -732,8 +731,30 @@ export default function Home() {
         </div>
       </section>
 
-      {/* CAL.COM SCHEDULING SECTION */}
-      <CalBookingSection />
+      {/* QUICK SCHEDULE CTA BANNER */}
+      <section className="relative z-10 mx-auto max-w-6xl px-4 py-12 sm:px-6">
+        <div className="rounded-3xl glass-panel p-8 sm:p-10 border border-zinc-800 flex flex-col md:flex-row items-center justify-between gap-6 bg-gradient-to-r from-zinc-950 via-zinc-900 to-zinc-950">
+          <div>
+            <span className="text-xs font-mono uppercase tracking-widest text-orange-400">
+              1-ON-1 DISCOVERY CALL
+            </span>
+            <h3 className="text-2xl sm:text-3xl font-extrabold text-white mt-1">
+              Want to discuss a project or role?
+            </h3>
+            <p className="text-xs sm:text-sm text-zinc-400 mt-1 max-w-lg">
+              Schedule a 15-minute meeting on Cal.com to talk about web development, AI integration, or technical opportunities.
+            </p>
+          </div>
+          <a
+            href="https://cal.com/tharun-kumar-wx6kly/15min"
+            target="_blank"
+            rel="noreferrer"
+            className="shrink-0 flex items-center gap-2.5 rounded-full bg-orange-500 hover:bg-orange-400 px-7 py-3.5 text-xs font-bold text-black uppercase tracking-wider transition-all duration-300 shadow-xl shadow-orange-500/20 active:scale-95"
+          >
+            Book 15-Min Meeting <ArrowUpRight className="h-4 w-4" />
+          </a>
+        </div>
+      </section>
 
       {/* INTEGRATED COMPONENT 2: SKIPER39 CROWD CANVAS FOOTER */}
       <section className="relative h-[450px] w-full overflow-hidden border-t border-zinc-800">
