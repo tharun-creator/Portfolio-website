@@ -42,20 +42,11 @@ export function CalBookingSection() {
     if ((window as any).Cal) {
       (window as any).Cal("init", "15min", { origin: "https://app.cal.com" });
       
-      // Cal.com Official Inline Embed Initialization
+      // Cal.com Official Inline Embed Initialization (Dark Theme Single Embed)
       (window as any).Cal.ns["15min"]("inline", {
         elementOrSelector: "#cal-inline-embed",
         calLink: "tharun-kumar-wx6kly/15min",
-        config: { layout: "month_view" },
-      });
-
-      // Floating button configuration
-      (window as any).Cal.ns["15min"]("floatingButton", {
-        calLink: "tharun-kumar-wx6kly/15min",
-        buttonColor: "#f94e1b",
-        buttonTextColor: "#ffffff",
-        buttonText: "Book a 15-Min Call",
-        config: { layout: "month_view", useSlotsViewOnSmallScreen: "true" },
+        config: { layout: "month_view", theme: "dark" },
       });
 
       (window as any).Cal.ns["15min"]("ui", {
