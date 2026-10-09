@@ -166,26 +166,25 @@ export default function Home() {
       {/* ========================================== */}
       <section className="relative min-h-[85vh] w-full flex flex-col justify-between bg-[#08080a] text-white px-4 sm:px-8 pt-6 pb-2 overflow-hidden">
         
-        {/* TOP FLOATING PILL NAVIGATION */}
+        {/* TOP MINIMAL NAVIGATION */}
         <header className="relative z-30 flex items-center justify-between mx-auto w-full max-w-7xl">
           <div className="flex items-center gap-3">
-            <div className="glass-panel flex items-center gap-3 rounded-full px-5 py-2.5 shadow-2xl border border-zinc-800/80">
-              <span className="h-3.5 w-3.5 rounded-full bg-gradient-to-tr from-orange-600 to-amber-400 ring-2 ring-orange-500/40" />
-              <span className="text-sm sm:text-base font-semibold tracking-tight text-white">
-                Tharunkumar H
+            <div className="glass-panel flex items-center gap-3.5 rounded-full px-5 py-2.5 shadow-xl border border-zinc-800/80">
+              <span className="text-xs sm:text-sm font-mono font-bold tracking-widest text-white uppercase">
+                THARUNKUMAR.H
               </span>
               <button
                 onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-                className="ml-2 text-zinc-400 hover:text-white focus:outline-none"
+                className="text-zinc-400 hover:text-white focus:outline-none transition-colors"
                 aria-label="Menu"
               >
-                <Menu className="h-5 w-5" />
+                <Menu className="h-4 w-4" />
               </button>
             </div>
           </div>
 
           {/* Right Status / Links */}
-          <div className="hidden md:flex items-center gap-6 text-xs uppercase font-medium tracking-widest text-zinc-400">
+          <div className="hidden md:flex items-center gap-6 text-xs uppercase font-medium tracking-widest text-zinc-400 font-mono">
             <a href="#about" className="hover:text-orange-400 transition-colors">About</a>
             <a href="#experience" className="hover:text-orange-400 transition-colors">Experience</a>
             <a href="#projects" className="hover:text-orange-400 transition-colors">Projects</a>
@@ -205,36 +204,22 @@ export default function Home() {
         {/* Fullscreen Navigation Modal */}
         <FullscreenMenu isOpen={mobileMenuOpen} onClose={() => setMobileMenuOpen(false)} />
 
-        {/* HERO CONTENT OVERLAYS (PERFECT 2-COLUMN ALIGNMENT) */}
-        <div className="relative z-20 mx-auto w-full max-w-7xl my-auto grid grid-cols-1 lg:grid-cols-12 gap-8 items-center pt-10 pb-12">
+        {/* HERO CONTENT (CLEAN HAND-CRAFTED EDITORIAL LAYOUT) */}
+        <div className="relative z-20 mx-auto w-full max-w-7xl my-auto grid grid-cols-1 lg:grid-cols-12 gap-8 items-center pt-12 pb-16">
           
-          {/* LEFT OVERLAY: STATUS PILL + HEADLINE + TECH TAGS */}
-          <div className="lg:col-span-7 space-y-5 text-left">
-            <div className="inline-flex items-center gap-2 rounded-full bg-zinc-900/90 border border-zinc-800 px-3.5 py-1.5 text-xs text-zinc-300 font-medium backdrop-blur-md">
-              <span className="h-2 w-2 rounded-full bg-orange-500 animate-pulse" />
-              <span>Available for Work</span>
+          {/* LEFT: MINIMALIST OVERTITLE & HEADLINE */}
+          <div className="lg:col-span-7 space-y-4 text-left">
+            <div className="text-xs font-mono text-orange-400 uppercase tracking-widest font-semibold">
+              /// FULL STACK &amp; AI ENGINEERING
             </div>
 
-            <h1 className="text-4xl sm:text-6xl lg:text-7xl font-black tracking-tight text-white font-display leading-[1.04] uppercase">
-              Full Stack <br />
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-orange-400 via-orange-500 to-amber-300">
-                AI Developer
-              </span>
+            <h1 className="text-5xl sm:text-7xl lg:text-8xl font-black tracking-tight text-white font-display leading-[0.98] uppercase">
+              FULL STACK <br />
+              <span className="text-zinc-200">AI DEVELOPER</span>
             </h1>
-
-            <div className="flex flex-wrap gap-2 pt-2">
-              {["React & Next.js", "Python & FastAPI", "LLMs & GenAI", "AWS Cloud"].map((tag) => (
-                <span
-                  key={tag}
-                  className="rounded-full bg-zinc-900/80 border border-zinc-800 px-3 py-1 text-[11px] font-mono text-zinc-300"
-                >
-                  {tag}
-                </span>
-              ))}
-            </div>
           </div>
 
-          {/* RIGHT OVERLAY: BIO GLASS CARD + ORANGE CTA BUTTON */}
+          {/* RIGHT: BIO GLASS CARD & CTA BUTTON */}
           <div className="lg:col-span-5 flex flex-col items-start lg:items-end text-left lg:text-right space-y-6">
             <div className="glass-panel p-6 sm:p-7 rounded-3xl border border-zinc-800/80 shadow-2xl backdrop-blur-xl bg-zinc-900/50 max-w-md">
               <p className="text-xs sm:text-sm text-zinc-300 font-normal leading-relaxed">
@@ -242,7 +227,7 @@ export default function Home() {
               </p>
             </div>
 
-            {/* ORANGE CTA BUTTON WITH CIRCULAR ARROW ICON */}
+            {/* ORANGE CTA BUTTON */}
             <a
               href="#projects"
               className="group inline-flex items-center gap-3 rounded-full bg-orange-500 hover:bg-orange-400 p-2 pr-7 text-xs font-bold text-black uppercase tracking-wider transition-all duration-300 shadow-xl shadow-orange-500/25 active:scale-95"
