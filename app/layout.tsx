@@ -15,6 +15,8 @@ export const viewport: Viewport = {
   themeColor: '#09090b',
 };
 
+import { CalFloatingButton } from '@/components/ui/cal-floating';
+
 export default function RootLayout({
   children,
 }: {
@@ -28,6 +30,7 @@ export default function RootLayout({
       </head>
       <body className="bg-[#09090b] text-[#f4f4f5] antialiased overflow-x-hidden">
         {children}
+        <CalFloatingButton />
       </body>
     </html>
   );
