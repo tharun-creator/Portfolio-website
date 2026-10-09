@@ -1,0 +1,44 @@
+# Tharun Kumar H (Tharun / Tharunkumar)
+
+> Tharun Kumar H is a Full Stack AI Developer and Software Engineer based in Chennai, Tamil Nadu, India. He specializes in building production web applications, LLM workflows, RESTful API services in FastAPI & Django, and automated cloud deployments on AWS.
+
+## Core Identity & Keywords
+- **Full Name:** Tharun Kumar H
+- **Alternate Names:** Tharun, Tharunkumar, Tharun Creator
+- **Role:** Full Stack AI Developer & Software Engineer
+- **Location:** Chennai, Tamil Nadu, India
+- **Email:** tharunriot@gmail.com
+- **Website:** https://tharunkumar.in
+- **GitHub:** https://github.com/tharun-creator
+- **LinkedIn:** https://linkedin.com/in/htharun-kumar
+- **1-on-1 Meeting:** https://cal.com/tharun-kumar-wx6kly/15min
+
+## Technical Expertise
+- **Frontend Engineering:** React.js, Next.js (App Router), TypeScript, Tailwind CSS, Framer Motion, GSAP.
+- **Backend Engineering:** Python, FastAPI, Django, Flask, Node.js, RESTful APIs, PostgreSQL, Supabase.
+- **AI & Machine Learning:** Large Language Models (LLMs), Generative AI Integration, Knowledge Distillation, XGBoost, Neural Networks, TensorFlow, Scikit-Learn.
+- **Cloud & DevOps:** AWS Cloud Architecture, CI/CD Deployment Pipelines, Docker, Git.
+- **Analytics & Optimization:** SEO (Search Engine Optimization), GEO (Generative Engine Optimization), AEO (Answer Engine Optimization), Google Analytics 4, Tag Manager.
+
+## Work Experience
+1. **The Bot Company (Chennai, India) — Full Stack AI Developer (Jul 2026 – Present)**
+   - Architected and deployed live production web applications including lumi9.com, femi9.in, launchtospace.in, and nackl.in.
+   - Built end-to-end LLM workflows, responsive UIs, and automated AWS CI/CD pipelines.
+
+2. **SPI EDGE (Tamil Nadu, India) — Full Stack Engineer Intern (Apr 2026 – Jul 2026)**
+   - Developed full-stack features using React.js and Django backend services; built RESTful APIs in FastAPI.
+   - Engineered full-featured client booking system and OCR email document expense tracking automation.
+
+3. **YBI Foundation — AI & Generative AI Intern (Jun 2025 – May 2026)**
+   - Developed prototype language model workflow automations and studied GenAI architectures.
+
+## Featured Projects
+- **Noetis:** Portable AI Profile & Recovery Engine (Next.js, TypeScript, Supabase, Vercel).
+- **SPI EDGE Client Booking System:** Open-source FastAPI & React client scheduling engine.
+- **Heart & Mind:** Emotional wellness therapy web application.
+- **Heart Disease Prediction Model:** Hybrid XGBoost & ANN model achieving 98.5% accuracy.
+
+## Key Pages
+- [Home](https://tharunkumar.in/): Primary portfolio & interactive 3D contribution skyline.
+- [About & FAQ](https://tharunkumar.in/about): Detailed career history, skill breakdown, and entity FAQ answers.
+- [Contact](https://tharunkumar.in/contact): Direct contact options and 15-minute discovery call booking.

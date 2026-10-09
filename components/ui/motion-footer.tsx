@@ -395,6 +395,14 @@ export function CinematicFooter() {
 
                 <MagneticButton
                   as="a"
+                  href="/about"
+                  className="footer-glass-pill px-6 py-3 rounded-full text-zinc-300 font-medium text-xs md:text-sm hover:text-white"
+                >
+                  About Tharun
+                </MagneticButton>
+
+                <MagneticButton
+                  as="a"
                   href="#projects"
                   className="footer-glass-pill px-6 py-3 rounded-full text-zinc-300 font-medium text-xs md:text-sm hover:text-white"
                 >

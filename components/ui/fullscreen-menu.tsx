@@ -41,7 +41,7 @@ export function FullscreenMenu({ isOpen, onClose }: FullscreenMenuProps) {
             SITEMAP
           </span>
           <nav className="flex flex-col gap-4 text-3xl sm:text-5xl lg:text-6xl font-black font-display uppercase tracking-tight">
-            <Link href="/#about" onClick={onClose} className="hover:text-orange-400 transition-colors">
+            <Link href="/about" onClick={onClose} className="hover:text-orange-400 transition-colors">
               ABOUT
             </Link>
             <Link href="/#experience" onClick={onClose} className="hover:text-orange-400 transition-colors">

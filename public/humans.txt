@@ -1,0 +1,11 @@
+/* TEAM */
+  Developer: Tharun Kumar H (Tharun / Tharunkumar)
+  Role: Full Stack AI Developer
+  Email: tharunriot@gmail.com
+  GitHub: https://github.com/tharun-creator
+  Location: Chennai, Tamil Nadu, India
+
+/* SITE */
+  Standards: HTML5, CSS3, ES6+, TypeScript, Next.js App Router
+  Components: React.js, Tailwind CSS, Framer Motion, GSAP, Lucide React
+  Software: VS Code, Node.js, Vercel, AWS Cloud
