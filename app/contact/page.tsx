@@ -5,6 +5,7 @@ import Link from "next/link";
 import {
   ArrowRight,
   ArrowUpRight,
+  Calendar,
   CheckCircle2,
   Mail,
   MapPin,
@@ -16,7 +17,6 @@ import {
 import confetti from "canvas-confetti";
 import { SideOrangeLines } from "@/components/ui/orange-accent-lines";
 import { FullscreenMenu } from "@/components/ui/fullscreen-menu";
-import { CalBookingSection } from "@/components/ui/cal-booking";
 
 export default function ContactPage() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -205,23 +205,15 @@ export default function ContactPage() {
                   </a>
                 </div>
 
-                <div>
-                  <div className="text-xs text-zinc-400">Schedule Call:</div>
+                <div className="pt-2">
                   <a
                     href="https://cal.com/tharun-kumar-wx6kly/15min"
                     target="_blank"
                     rel="noreferrer"
-                    className="text-base font-semibold text-orange-400 hover:underline flex items-center gap-1"
+                    className="inline-flex items-center gap-2 rounded-full bg-orange-500 hover:bg-orange-400 px-6 py-3 text-xs font-bold text-black uppercase tracking-wider transition-all duration-300 shadow-lg shadow-orange-500/20 active:scale-95"
                   >
-                    Book a 15-Min Meeting <ArrowUpRight className="h-4 w-4" />
+                    <Calendar className="h-4 w-4" /> Book 15-Min Meeting <ArrowUpRight className="h-4 w-4" />
                   </a>
-                </div>
-
-                <div>
-                  <div className="text-xs text-zinc-400 font-mono">Location:</div>
-                  <div className="text-base font-semibold text-white">
-                    Chennai, Tamil Nadu, India
-                  </div>
                 </div>
               </div>
             </div>
@@ -257,9 +249,6 @@ export default function ContactPage() {
 
         </div>
       </main>
-
-      {/* CAL.COM SCHEDULING SECTION */}
-      <CalBookingSection />
 
       {/* ==================================================== */}
       {/* VIBRANT ORANGE CONTACT US BANNER (MATCHING IMAGE 1) */}
